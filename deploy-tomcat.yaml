@@ -30,6 +30,6 @@ spec:
     app: tomcat-cd 
   type: NodePort 
   ports:
-  - nodePort: 31000
+  - nodePort: 31013
     port: 8080
     targetPort: 8080
