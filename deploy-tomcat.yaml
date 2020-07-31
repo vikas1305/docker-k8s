@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: tomcat-cd
-        image: vikas1305/java-web-app-cicd:latest
+        image: torukmakto/java-web-app-cicd:latest
         ports:
         - containerPort: 8080
         imagePullPolicy: Always
